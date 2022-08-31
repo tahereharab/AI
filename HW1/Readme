@@ -1,1 +1,8 @@
+A problem-solving agent for the 8-puzzle problem
 
+In this problem we will implement a number of uninformed search techniques and test them
+on the 8-puzzle problem. The 8-puzzle problem is described in the textbook (Russell and Norvig) on page 70 and 71.
+Part a. Run the plain breadth-rst search algorithm.
+Part b. Breadth- rst search statistics.
+Part c. Breadth- rst search with the elimination of cyclic state repeats.
+Part d. Breadth- rst search with the elimination of all state repeats.
