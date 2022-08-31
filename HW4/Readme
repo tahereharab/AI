@@ -1,1 +1,9 @@
+Traveling salesman problem: Genetic algorithm
 
+This problem investigates the same TSP problem we studied in Assignment 3.
+The disadvantage of the simulated annealing algorithm is that at any point in time it keeps
+only one current configuration and that next step configurations are obtained using “local”
+changes. Thus, it may take a number of steps till one gets to explore good configurations.
+The genetic algorithm attempts to alleviate the problems by keeping a limited number
+of “current” configurations and by combining (more radically) two good quality solutions
+hoping that the combination will lead to a larger improvement in the quality.
