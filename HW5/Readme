@@ -1,0 +1,16 @@
+Tic-tac-toe-10 player
+
+The goal of this assignment is to implement a program capable of playing Tic-tac-toe on
+the 10 × 10 board. The 3 × 3 version of the game is discussed in the textbook. Both 3 × 3
+and 10 × 10 versions of the Tic-tac-toe are related to the old Japanese game of Go.
+Rules. The game is played on a rectangular 10 × 10 board. There are two players, one
+plays crosses, the other plays zeroes. The players alternate their moves. The first one to
+achieve five of his marks in a row, a column or on a diagonal wins.
+The player program you have to build will always play crosses. To test your program you
+may use board positions stored in the boards subdirectory. It is always X’s turn. We
+encourage you to create some interesting board positions yourself.
+The program’s input is a current board position. The output is a number identifying the
+board position chosen by the program. A position on a 10 × 10 board, can be represented
+using two digits with values 0-9. The first digit indexes the row, the second digit the column.
+For example, the output ’23’ indicates the program chose to put its mark (an ’x’) to the
+second row and the third column. Note that your program chooses only its next move.
