@@ -1,1 +1,11 @@
+Heuristic search for the 8-puzzle problem.
 
+In this problem we will explore heuristic search solutions for the 8-puzzle problem. We
+will use the evaluation-function driven search procedure to incorporate various exploration
+strategies. The procedure searches the space by expanding the nodes with the
+minimum value first.
+Part a. Uniform cost search
+Part b. Uniform cost search with the elimination of redundant nodes
+Part c. A* algorithm with the misplaced tile heuristic
+Part d. Greedy search with the misplaced tile heuristic
+Part e. A* with Manhattan distance heuristic
