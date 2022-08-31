@@ -1,1 +1,16 @@
+Traveling Salesman Problem
 
+The Traveling Salesman problem (TSP hereafter) is a classical graph-theoretical
+problem. It involves a traveling salesman who has to visit each of the cities in
+a given network before returning to his starting point, at which time his trip is
+complete. The objective is to find the cheapest tour, that is the shortest route that
+passes through each city exactly once and returns back to start.
+The variants of TSP arise in the design of telephone networks and integrating circuits,
+in planning construction lines, and in the programming of industrial robots,
+to mention but a few applications. In all of these, the ability to find inexpensive
+tours of the graphs in question can be quite crucial.
+In this assignment, we explore simulated annealing solution to the TSP problem.
+
+Part a. Simulated annealing algorithm
+Part b. Experiments with the simulated annealing program
+Part c. Cooling schedule competition
