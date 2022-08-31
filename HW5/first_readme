@@ -1,0 +1,9 @@
+Note: !!!!!
+Due to the new CSSD access policies I cannot post the perl script implementing the driver program on my web page directly. Hence it is included in the assignment directory as driver.pl.txt. Prior to using it please change its name from driver.pl.txt to driver.pl
+
+
+Run ./driver.pl to see how the players play against each other. You will need to have perl installed. Right now, the players are somewhat dumb, of course. 
+
+Implement your player in player.cpp, modifying the function player(). Please ignore the parameter void * extrainfo. It is there to keep the compiler happy. You probably want to use some sort of heuristic alpha-beta pruning, but you are given free rein as to how you implement your player.
+
+The program in file verifier.cpp is the judge in the game. Do not modify this program.
