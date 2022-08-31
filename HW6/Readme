@@ -1,1 +1,10 @@
+Classification of handwritten digits with a logistic regression model
 
+In this problem we use a logistic regression model to learn and to discriminate between the
+two digits (3 and 5) that can appear on the input. The input consists of a two dimensional
+array of 1s and 0s representing the grid of pixels and their colors (black and white).
+Our objective is to train the model to classify digits 3 and 5 from the set of handwritten
+digit patterns and their labels. The data are divided into two sets:
+• training set used for training the model (files digit x.dat,digit y.dat) ;
+• testing set used for testing the performance of the learned model (files digit x test.dat
+and digit y test.dat).
